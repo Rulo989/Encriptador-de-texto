@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="images/encryption.jpg" alt="Descripción de la imagen" class="header-image"> 
+    <div class="main-container">
+        <div class="text-box">
+            <div class="input-container">
+                <textarea id="inputText" placeholder="Ingresa el texto a encriptar o desencriptar"></textarea>
+                <div class="button-container">
+                    <button id="encryptBtn">Encriptar</button>
+                    <button id="decryptBtn">Desencriptar</button>
+                </div>
+                <p class="warning">No se aceptarán mayúsculas ni caracteres especiales.</p>
+            </div>
+            <div class="output-container">
+                <textarea id="outputText" placeholder="Texto encriptado o desencriptado" readonly></textarea>
+                <button id="copyBtn">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Autor: Raul Christian Ramirez Lopez | Año de creación del proyecto: 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

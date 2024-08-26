@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.main-container {
+    width: 400px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea {
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.output-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+#outputText {
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    resize: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+    margin: 0 5px;
+}
+
+/* Botón de encriptar */
+#encryptBtn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
+
+#encryptBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Botón de desencriptar */
+#decryptBtn {
+    background-color: white;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+}
+
+#decryptBtn:hover {
+    background-color: #f0f0f0;
+}
+
+.warning {
+    color: #d9534f;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+}
